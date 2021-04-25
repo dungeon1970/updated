@@ -20,7 +20,9 @@ a{
     color: cornsilk;
 }
 
-
+h3{
+    text-align: center;
+}
 
 
 #h-index{
@@ -349,21 +351,6 @@ button{
 
 
 @media only screen and (max-width: 920px) {
-    #slider p{
-        top: 21vh;
-        left: 20vw;
-    }
-
-  
-
-    #ind-article div{
-        margin-bottom: 40px;
-    }
-
-    .gap{
-        padding-bottom: 70px;
-    }
-
     .box-3{
         order: 4;
     }
@@ -371,14 +358,16 @@ button{
         order: 3;
     }
     
+    .container img{
+        margin-top: 60px;
+    }
+
     .blog{
         width: 90%;
     }
 }
 
-h3{
-    text-align: center;
-}
+
 
 
 

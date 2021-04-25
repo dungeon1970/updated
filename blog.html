@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Durham Blog</title>
+</head>
+<body>
+    <header>
+        <menu class="menu">
+            <img src="./images/Durham Shield.png" alt="">
+            <div>
+                <ul class="menu-items">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="history.html">History</a></li>
+                    <li><a href="events.html">Events</a></li>
+                </ul>
+            </div>
+        </menu>
+    </header>
+    <h1>Comments from our visitors</h1>
+    <Div id="blog-wrapper">
+    </Div>
+    <hr>
+    <form id="blog-form" action="save.php" method="POST">
+        <p>Please leave your opinion<br/><br/></p>
+        <label for="name">Enter Name</label><input id="name" type="text" name="name">
+        <label for="title">Enter Subject</label><input id="subject" type="text" name="subject">
+        <label for="comments">Enter comments</label><textarea id="comments" name="comments"></textarea>
+        <button type="submit" id="submit">Submit</button>
+    </form>
+    <script src="./script.js"></script>
+</body>
+</html>

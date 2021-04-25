@@ -24,12 +24,12 @@
     <Div id="blog-wrapper">
     </Div>
     <hr>
-    <form id="blog-form" action="save.php" method="POST">
+    <form id="blog-form">
         <p>Please leave your opinion<br/><br/></p>
-        <label for="name">Enter Name</label><input id="name" type="text" name="name">
-        <label for="title">Enter Subject</label><input id="subject" type="text" name="subject">
+        <label for="name">Enter Name</label><input id="visitor" type="text" name="visitor" maxlength="16">
+        <label for="title">Enter Subject</label><input id="subject" type="text" name="subject" maxlength="16">
         <label for="comments">Enter comments</label><textarea id="comments" name="comments"></textarea>
-        <button type="submit" id="submit">Submit</button>
+        <button id="submit">Submit</button>
     </form>
     <script src="./script.js"></script>
 </body>
